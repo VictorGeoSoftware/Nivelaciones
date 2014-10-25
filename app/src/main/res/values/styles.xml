@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+    </style>
+    
+    <!-- Action Bar Styles -->
+    <style name="MyActionBarTabStyle"
+        	parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab_indicator</item>
+    </style>
+    
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edittexttheme_edit_text_holo_dark</item>
+        <item name="android:textCursorDrawable">@drawable/background_focus_edittext</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:paddingBottom">3dip</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:height">20dip</item>
+    </style>
+
+    <style name="BloqueBackground">
+        <item name="android:background">@drawable/shape_solid_item</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+    </style>
+</resources>

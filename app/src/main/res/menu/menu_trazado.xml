@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.victor.nuevo.nivelaciones.MainActivity" >
+
+    <item
+        android:id="@+id/cota_inicial"
+        android:orderInCategory="100"
+        android:title="@string/establecer_cota_inicial"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/planta"
+        android:orderInCategory="100"
+        android:title="@string/definicion_planta"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/planta_detalles"
+        android:orderInCategory="100"
+        android:title="@string/detalles_fichero_planta"
+        app:showAsAction="never"/>
+</menu>
